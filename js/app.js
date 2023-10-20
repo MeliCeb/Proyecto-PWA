@@ -71,21 +71,4 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.log("service worker not registered", err));
   });
 }
-//en manifest.json
-//es solo un archivo JSON con algunas propiedades obligatorias y otras opcionales.
 
-// name (nombre): Cuando el navegador inicie la pantalla de bienvenida, será el nombre que se muestre en la pantalla.
-
-// short_name (nombre corto): Será el nombre que se muestre debajo del acceso directo de la aplicación en la pantalla de inicio.
-
-// start_url (url de inicio): Será la página que se muestre al usuario una vez abierta tu aplicación.
-
-// display: Le dice al navegador cómo mostrar la aplicación. Hay varios modos como minimal-ui, fullscreen, browser, etc. Aquí, utilizamos el modo standalone para ocultar todo lo relacionado con el navegador.
-
-// background_color (color de fondo): Cuando el navegador inicie la pantalla de bienvenida, será el fondo pantalla.
-
-// theme_color (color de tema): Será el color de fondo de la barra de estado cuando abramos la aplicación.
-
-// orientation (orientación): Le dice al navegador la orientación que debe tener al mostrar la aplicación.
-
-// icons (iconos): Cuando el navegador inicie la pantalla de bienvenida, será el icono que se muestre en la pantalla. Aquí utilicé todos los tamaños para tener compatibilidad con el icono preferido de cualquier dispositivo. Pero puedes usar uno o dos. Tú decides.
